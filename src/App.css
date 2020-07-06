@@ -1,38 +1,80 @@
-.App {
-  text-align: center;
+.img{
+  height:100px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header{
+  display:flex;
+  align-items:center;
+  height:100px;
+  background-color:#AB2A19;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.screen{
+  display:flex;
+  width:100vw;
+  height:100%;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.dash{
+  justify-content:center;
+  align-items:center;
+  display:flex;
+  flex-wrap:wrap;
+  width:50vw;
+  height:100%;
 }
-
-.App-link {
-  color: #61dafb;
+.dash2{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  width:50vw;
+  height:90vh;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.product{
+  height:200px;
+  width:300px;
+  background-color:#AB2A19;
+  color:white;
+}
+.logo{
+  margin-left:75px;
+  height:50px;
+  width:50px;
+  background-image: url('./logo.png');
+  background-size:cover;
+}
+.header span{
+  color:white;
+  font-size:30px;
+  margin-left:25px;
+  font-weight:500;
+}
+.buttons button{
+  color:white;
+  height:40px;
+  text-align:center;
+  border-radius:10px;
+  outline:none;
+  border:none;
+  background-color:#bd3535;
+}
+.form{
+  border-radius:15px;
+  padding-left:10px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  text-align: left;
+  font-size:15px;
+  height:500px;
+  width:400px;
+  background-color:#3AD886;
+}
+.form h1{
+  width:25vw;
+}
+.buttons{
+  display:flex;
+  justify-content:space-around;
+  height:30px;
+  width:20vw;
+  margin-top:5vh;
 }
