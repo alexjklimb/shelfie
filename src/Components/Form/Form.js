@@ -40,6 +40,7 @@ class Form extends Component{
     render(){
         return(
             <div className="form">
+                <div className="box"></div>
                 <h1>Product Name: <input placeholder="product" 
                     onChange={ this.handleChange1 }
                     value={ this.state.name }/>

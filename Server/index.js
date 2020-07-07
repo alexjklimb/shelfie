@@ -17,7 +17,7 @@ massive({
     app.use(express.json());
 app.post("/api/inventory", mc.create);
 app.get("/api/inventory", mc.getAll);
-app.delete("api/inventory/:id", mc.delete);
+app.delete("/api/inventory/:id", mc.delete);
 
 
 app.listen(process.env.SERVER_PORT, ()=> console.log(`server is running on ${process.env.SERVER_PORT}`));

@@ -1,5 +1,14 @@
 .img{
-  height:100px;
+  height:200px;
+  margin-left:10px;
+}
+.product button{
+  outline:none;
+  border:none;
+  height:45px;
+  font-size:16px;
+  border-radius:10px;
+  background-color:#3AD886;
 }
 .header{
   display:flex;
@@ -18,20 +27,32 @@
   display:flex;
   flex-wrap:wrap;
   width:50vw;
-  height:100%;
+  height:75vh;
+  padding-top:25px;
 }
 .dash2{
   display:flex;
   justify-content:center;
   align-items:center;
   width:50vw;
-  height:90vh;
+  height:75vh;
 }
 .product{
+  border-radius:10px;
+  align-items:center;
+  display:flex;
+  margin-top:20px;
+  height:225px;
+  width:600px;
+  background-color:#d34735;
+  font-size:25px;
+}
+.info{
   height:200px;
-  width:300px;
-  background-color:#AB2A19;
-  color:white;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+  margin-left:20px;
 }
 .logo{
   margin-left:75px;
@@ -46,14 +67,21 @@
   margin-left:25px;
   font-weight:500;
 }
+.box{
+  border:solid #AB2A19;
+  border-width:1px;
+  height: 200px;
+  width:300px;
+  background-color:white;
+}
 .buttons button{
-  color:white;
-  height:40px;
+  height:50px;
+  font-size:16px;
   text-align:center;
   border-radius:10px;
   outline:none;
   border:none;
-  background-color:#bd3535;
+  background-color:#ed6b5a;
 }
 .form{
   border-radius:15px;
@@ -61,20 +89,26 @@
   display:flex;
   flex-direction:column;
   align-items:center;
-  justify-content:center;
+  justify-content:flex-end;
   text-align: left;
   font-size:15px;
-  height:500px;
+  height:525px;
   width:400px;
   background-color:#3AD886;
 }
 .form h1{
-  width:25vw;
+  font-size:20px;
+  text-align:left;
+  font-weight:normal;
+  width:380px;;
+}
+.form h1 input{
+  width:360px;
 }
 .buttons{
+  margin-bottom:40px;
   display:flex;
   justify-content:space-around;
   height:30px;
-  width:20vw;
-  margin-top:5vh;
+  width:380px;
 }
